@@ -8,7 +8,7 @@ class ExecutionError extends Error {
     }
     getArgData() {
         return this.el;
-    }
+    }//
 }
 
 function applyFn(dataArr, callback) {
